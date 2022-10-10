@@ -1,1 +1,181 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* font-family: 'Gemunu Libre', sans-serif; */
+
+*{
+    box-sizing: border-box;
+   font-family: 'Gemunu Libre', sans serif;
+  
+}
+
+body{
+    background: url(https://images.unsplash.com/photo-1620121684840-edffcfc4b878?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    margin: 2rem;
+    /* border: 2px solid red; */
+}
+
+header{
+
+    margin: 0.5rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav a{
+    font-family: 'Gemunu Libre', sans-serif; 
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem;
+    margin-right: 4rem;   
+    /* border: 2px solid red; */
+    text-align: center;
+    letter-spacing: 0.3rem;
+
+}
+
+section{
+    margin: 15rem;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Gemunu Libre', sans-serif; 
+    letter-spacing: 0.3rem;
+}
+
+p{
+    font-size: 2rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+    line-height: 3.5rem;
+}
+
+h1{
+    font-size: 6rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    margin: 1rem;
+    color: white;
+    
+}
+
+h2{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin: 1rem;
+    color: white;
+}
+
+#about{
+    border-radius: 2rem;
+    margin: 10rem;
+}
+
+#aboutpage{
+    margin: 5rem;
+    /* border: 2px solid blue; */
+    text-align: left;
+}
+
+.abouth2{
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.projecth2{
+    font-family: 'Gemunu Libre', sans-serif;
+    letter-spacing: 0.5rem;
+    margin: 5rem;
+    text-align: center;
+    
+}
+
+#Projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10rem;
+}
+
+#Projects .img{
+    justify-content: center;
+    margin: 4rem;
+}
+
+footer{
+    font-family: 'Gemunu Libre', sans-serif;
+    margin: 15rem;
+}
+
+.icon{
+    color: yellowgreen;
+    font-size: xxx-large;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
